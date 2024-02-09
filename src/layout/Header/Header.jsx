@@ -26,7 +26,7 @@ export default function Header() {
       className="py-[2.5rem] fixed top-0 left-0 transition-all duration-400 z-50 w-full"
       ref={headerRef}
     >
-      <div className="container wrapper">
+      <div className="container">
         <div className="flex justify-between gap-6 flex-col items-center sm:flex-row w-full">
           <a href="/">
             <img src={logo} alt="logo" width={120} />

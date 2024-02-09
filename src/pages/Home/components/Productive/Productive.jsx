@@ -4,7 +4,7 @@ import stayProductive from "../../../../assets/images/illustration-stay-producti
 export default function Productive() {
   return (
     <div className="my-[3rem]">
-      <div className="container wrapper">
+      <div className="container">
         <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-8">
           <img
             src={stayProductive}

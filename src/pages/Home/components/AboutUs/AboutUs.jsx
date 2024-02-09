@@ -3,7 +3,7 @@ import { aboutUsCards } from "../../data";
 export default function AboutUs() {
   return (
     <div>
-      <div className="container wrapper">
+      <div className="container">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           {aboutUsCards.map((card, index) => {
             return (

@@ -1,11 +1,10 @@
-import React from "react";
 import quotes from "../../../../assets/images/bg-quotes.png";
 import { testimonialsData } from "../../data";
 
 export default function Testimonials() {
   return (
     <div className="mt-[3rem] pt-8 mb-[16rem]">
-      <div className="container wrapper">
+      <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-[3rem] relative ">
           <img
             src={quotes}

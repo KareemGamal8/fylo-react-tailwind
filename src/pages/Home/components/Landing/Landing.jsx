@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <section className="relative">
       <img src={curvy} alt="curvy" className="w-full absolute bottom-0 z-[-1] left-0" />
-      <div className="container wrapper">
+      <div className="container">
         <div className="flex items-center gap-10 flex-col mt-[8rem] text-center text-white">
           <img src={illustrationIntro} alt="illustrationIntro" />
           <h2 className="text-4xl font-bold w-full sm:w-[40rem]">

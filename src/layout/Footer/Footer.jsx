@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <div className="mt-auto bg-[#0C1524]">
       <Subscribe />
-      <div className="container wrapper">
+      <div className="container">
         <div className="text-white pt-[8rem]">
           <img src={logo} alt="logo" />
           <div className="grid grid-cols-1 lg:grid-cols-6 my-4 gap-8 items-start">
